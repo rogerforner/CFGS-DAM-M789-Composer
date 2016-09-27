@@ -1,5 +1,21 @@
 {
+    "name": "rogerforner/composer-hello-world-rf",
+    "description": "blablabla...",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roger Forner Fabre",
+            "email": "rogerforne@iesebre.com"
+        }
+    ],
     "require": {
         "mfacenet/hello-world": "^1.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "rogerforner\\Hello\\" : "src/"
+        },
+        "files" : []
     }
 }

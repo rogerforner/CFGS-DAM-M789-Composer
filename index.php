@@ -1,12 +1,12 @@
 <?php
 
-use rogerforner\SayHello;
+use rogerforner\Hello\SayHello;
 //use HelloWorld\SayHello as SayHello2;
 
 //trobarà qualsevol classe del projecte
-require __DIR__ .'vendor/autoload.php'; //és més robust.
+require __DIR__ .'/vendor/autoload.php'; //és més robust.
 
-require 'src/SayHello.php';
+//require 'src/SayHello.php';
 
 //$sayhello = new \HelloWorld\SayHello();
 //

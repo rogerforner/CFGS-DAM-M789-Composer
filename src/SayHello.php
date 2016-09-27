@@ -1,6 +1,6 @@
 <?php
 
-namespace rogerforner;
+namespace rogerforner\Hello;
 
 /**
  * Created by PhpStorm.
